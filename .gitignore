@@ -1,0 +1,54 @@
+# 依存関係
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Next.jsビルド出力
+.next/
+out/
+build/
+dist/
+
+# 本番環境
+/build
+
+# その他
+.DS_Store
+*.pem
+
+# デバッグ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 環境変数ファイル
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScriptキャッシュ
+*.tsbuildinfo
+next-env.d.ts
+
+# IDEとエディター
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# テストカバレッジ
+coverage/
+.nyc_output/
+
+# キャッシュディレクトリ
+.cache/
+.parcel-cache/
+.eslintcache
