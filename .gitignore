@@ -1,54 +1,55 @@
-# 依存関係
+# --- 絶対除外（秘密情報系） ---
+.env
+.env.local
+.env*
+!.env.example
+*serviceAccount*.json
+credentials.*
+secrets.*
+wp-config.php
+
+# --- 依存関係 / OS由来のゴミ ---
 node_modules/
-/.pnp
-.pnp.js
-.yarn/install-state.gz
-
-# Next.jsビルド出力
-.next/
-out/
-build/
-dist/
-
-# 本番環境
-/build
-
-# その他
 .DS_Store
-*.pem
+Thumbs.db
 
-# デバッグ
+# --- ビルド成果物（生成されるもの） ---
+dist/
+build/
+out/
+public/build/
+*.map
+.next/
+
+# --- キャッシュ / ログ ---
+.cache/
+.tmp/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# 環境変数ファイル
-.env
-.env*.local
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Vercel
-.vercel
-
-# TypeScriptキャッシュ
+pnpm-debug.log*
+.eslintcache
 *.tsbuildinfo
-next-env.d.ts
 
-# IDEとエディター
+# --- WordPress案件でよく除外 ---
+# wp-content/uploads/
+# wp-content/cache/
+# wp-content/upgrade/
+# wp-content/plugins/*
+# !wp-content/plugins/my-plugin/
+
+# --- その他（プロジェクト固有） ---
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+.vercel
+next-env.d.ts
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
-
-# テストカバレッジ
 coverage/
 .nyc_output/
-
-# キャッシュディレクトリ
-.cache/
 .parcel-cache/
-.eslintcache
