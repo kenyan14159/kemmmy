@@ -32,13 +32,6 @@ pnpm-debug.log*
 .eslintcache
 *.tsbuildinfo
 
-# --- WordPress案件でよく除外 ---
-# wp-content/uploads/
-# wp-content/cache/
-# wp-content/upgrade/
-# wp-content/plugins/*
-# !wp-content/plugins/my-plugin/
-
 # --- その他（プロジェクト固有） ---
 /.pnp
 .pnp.js
