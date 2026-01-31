@@ -28,7 +28,7 @@ export default function NewsContent() {
           src="/images/SuzukiKengoProfile.jpg"
           alt="鈴木健吾 プロランナー"
           fill
-          className="object-cover"
+          className="object-cover object-top"
           priority
         />
       </motion.div>

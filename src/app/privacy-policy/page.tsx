@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import PrivacyContent from "./PrivacyContent";
+import Footer from "@/components/sections/Footer";
 
 export const metadata: Metadata = {
   title: "プライバシーポリシー | Kemmmy LLC",
@@ -25,6 +26,8 @@ export default function PrivacyPolicyPage() {
 
         <PrivacyContent />
       </div>
+
+      <Footer />
     </main>
   );
 }

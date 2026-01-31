@@ -140,7 +140,7 @@ export default function PrivacyContent() {
         className="mt-16 pt-8 border-t border-gray-200 text-center"
       >
         <p className="text-gray-500 text-sm">
-          制定日：2026年1月1日
+          制定日：2026年1月31日
         </p>
         <p className="text-gray-700 font-medium mt-2">合同会社Kemmmy</p>
       </motion.div>

@@ -184,18 +184,18 @@ export default function RecordSection() {
             UNIVERSITY EKIDEN<span className="text-orange-500">.</span>
           </h3>
 
-          <div className="overflow-x-auto">
-            <table className="w-full min-w-[500px]">
+          <div>
+            <table className="w-full">
               <thead>
                 <tr className="border-b-2 border-gray-200">
-                  <th className="py-4 px-4 text-left text-sm font-medium text-gray-400 uppercase tracking-widest">
-                    Grade
+                  <th className="py-4 px-2 md:px-4 text-left text-xs md:text-sm font-medium text-gray-400 tracking-wide">
+                    学年
                   </th>
-                  <th className="py-4 px-4 text-left text-sm font-medium text-gray-400 uppercase tracking-widest">
-                    All Japan
+                  <th className="py-4 px-2 md:px-4 text-left text-xs md:text-sm font-medium text-gray-400 tracking-wide">
+                    全日本大学駅伝
                   </th>
-                  <th className="py-4 px-4 text-left text-sm font-medium text-gray-400 uppercase tracking-widest">
-                    Hakone
+                  <th className="py-4 px-2 md:px-4 text-left text-xs md:text-sm font-medium text-gray-400 tracking-wide">
+                    箱根駅伝
                   </th>
                 </tr>
               </thead>
@@ -207,9 +207,9 @@ export default function RecordSection() {
                   transition={{ duration: 0.5, delay: 0.1 }}
                   className="border-b border-gray-100"
                 >
-                  <td className="py-4 px-4 font-medium text-black">1年生</td>
-                  <td className="py-4 px-4 text-gray-600">3区-区間9位 28:16</td>
-                  <td className="py-4 px-4 text-gray-600">6区-区間19位 1:02:42</td>
+                  <td className="py-4 px-2 md:px-4 font-medium text-black text-sm md:text-base">1年生</td>
+                  <td className="py-4 px-2 md:px-4 text-gray-600 text-xs md:text-base">3区-区間9位 28:16</td>
+                  <td className="py-4 px-2 md:px-4 text-gray-600 text-xs md:text-base">6区-区間19位 1:02:42</td>
                 </motion.tr>
                 <motion.tr
                   initial={{ opacity: 0, x: -20 }}
@@ -218,9 +218,9 @@ export default function RecordSection() {
                   transition={{ duration: 0.5, delay: 0.2 }}
                   className="border-b border-gray-100"
                 >
-                  <td className="py-4 px-4 font-medium text-black">2年生</td>
-                  <td className="py-4 px-4 text-gray-600">1区-区間8位 43:28</td>
-                  <td className="py-4 px-4 text-gray-600">2区-区間14位 1:10:20</td>
+                  <td className="py-4 px-2 md:px-4 font-medium text-black text-sm md:text-base">2年生</td>
+                  <td className="py-4 px-2 md:px-4 text-gray-600 text-xs md:text-base">1区-区間8位 43:28</td>
+                  <td className="py-4 px-2 md:px-4 text-gray-600 text-xs md:text-base">2区-区間14位 1:10:20</td>
                 </motion.tr>
                 <motion.tr
                   initial={{ opacity: 0, x: -20 }}
@@ -229,9 +229,9 @@ export default function RecordSection() {
                   transition={{ duration: 0.5, delay: 0.3 }}
                   className="border-b border-gray-100 bg-orange-50"
                 >
-                  <td className="py-4 px-4 font-medium text-black">3年生</td>
-                  <td className="py-4 px-4 text-gray-600">不参加</td>
-                  <td className="py-4 px-4 text-orange-600 font-semibold">2区-区間賞 1:07:17</td>
+                  <td className="py-4 px-2 md:px-4 font-medium text-black text-sm md:text-base">3年生</td>
+                  <td className="py-4 px-2 md:px-4 text-gray-600 text-xs md:text-base">不参加</td>
+                  <td className="py-4 px-2 md:px-4 text-orange-600 font-semibold text-xs md:text-base">2区-区間賞 1:07:17</td>
                 </motion.tr>
                 <motion.tr
                   initial={{ opacity: 0, x: -20 }}
@@ -240,9 +240,9 @@ export default function RecordSection() {
                   transition={{ duration: 0.5, delay: 0.4 }}
                   className="border-b border-gray-100"
                 >
-                  <td className="py-4 px-4 font-medium text-black">4年生</td>
-                  <td className="py-4 px-4 text-gray-600">8区-区間2位 57:24</td>
-                  <td className="py-4 px-4 text-gray-600">2区-区間4位 1:07:26</td>
+                  <td className="py-4 px-2 md:px-4 font-medium text-black text-sm md:text-base">4年生</td>
+                  <td className="py-4 px-2 md:px-4 text-gray-600 text-xs md:text-base">8区-区間2位 57:24</td>
+                  <td className="py-4 px-2 md:px-4 text-gray-600 text-xs md:text-base">2区-区間4位 1:07:26</td>
                 </motion.tr>
               </tbody>
             </table>
