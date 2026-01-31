@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     description: "鈴木健吾を起用した広告・プロモーション、講演依頼など法人様向けサービスのご案内。",
   },
 };
-
+ 
 export default function BusinessPage() {
   return (
     <>
